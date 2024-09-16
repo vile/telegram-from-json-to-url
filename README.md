@@ -15,6 +15,8 @@ Install dependencies using Poetry:
 poetry install --no-root
 ```
 
+Include Telegram chat JSON export in the root directory of this project as `result.json`.
+
 Make the shell script executable, run it:
 
 ```bash
