@@ -44,6 +44,7 @@ def dedupe_urls(urls: list[str]) -> list[str]:
 
 
 def pretty_print_urls(urls: list[str], exclude: list[str]) -> None:
+    """Pretty print URLs to terminal instead of Python list blob."""
     for url in urls:
         if not any(_ in url for _ in exclude):
             print(url)
