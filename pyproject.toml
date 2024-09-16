@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "telegram-from-json-to-url"
 version = "0.1.0"
-description = ""
+description = "Extract unique URLs from a JSON Telegram chat export."
 authors = ["vile <111662603+vile@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+ijson = "^3.3.0"
 
 
 [build-system]
